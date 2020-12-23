@@ -2,6 +2,9 @@
 
 {%load humanize%}
 
+
+{%block title%}Welcome{%endblock%}
+
 {%block content%}
 
 
@@ -76,6 +79,9 @@
       </div>
     </div>
   </section>
+
+  <br>
+  {%include 'partials/_alert.html'%}
 
   <!-- Listings -->
   <section id="listings" class="py-5">
