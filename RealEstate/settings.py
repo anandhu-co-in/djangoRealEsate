@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'listings.apps.ListingsConfig',
     'realtors.apps.RealtorsConfig',
     'accounts.apps.AccountsConfig',
+    'contacts.apps.ContactsConfig',
     'pages.apps.PagesConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -148,3 +149,13 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS={
     messages.ERROR : 'danger'
 }
+
+
+
+#Email Config  #https://www.google.com/settings/security/lesssecureapps
+
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_PORT=587
+EMAIL_HOST_USER='faultinmystarz@gmail.com'
+EMAIL_HOST_PASSWORD='corona@2020'
+EMAIL_USE_TLS=True
