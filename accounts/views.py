@@ -53,6 +53,9 @@ def login(request):
             auth.login(request,user)
             messages.success(request,"You are now logged in")
             return redirect('dashboard')
+        else:
+            messages.error(request,"Login Failed. Please enter valid credentials")
+            return render(request,'accounts/login.html')
 
         #return redirect('login')
     else:
