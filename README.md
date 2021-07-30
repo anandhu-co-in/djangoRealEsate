@@ -1,5 +1,12 @@
 ## djangoRealEsate
-## This is a practice project im currently working on following a udemy course. Link below
+## This repo is for a django demo real estate application. Fully developed by following below training course
 https://udemy.com/course/python-django-dev-to-deployment
-## Current price ₹7,680
 
+
+## Components
+Python, django, PostgreSQL, Boostrap, Heroku
+
+### Preview
+<img src="preview.png">
+
+Live link : https://btrealestate.herokuapp.com/
